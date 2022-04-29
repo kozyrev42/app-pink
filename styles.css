@@ -142,6 +142,12 @@ img {
     margin-bottom: 45px;
 }
 
+.greeting__left__bottom-p1:hover {
+    color: #a3a3a3;
+    border-color: #a3a3a3;
+    cursor: pointer;
+}
+
 .greeting__left__bottom-p2 {
     display: flex;
     justify-content: center;
@@ -175,7 +181,7 @@ img {
     color: #ffffff;
 }
 
-.greeting-mob {
+.g-l-t-mob {
     display: none;
 }
 
@@ -190,6 +196,11 @@ img {
     z-index: 1; */  /*  */
 
 }
+
+.g-l-m-mob {
+    display: none;
+}
+
 
 /* секция 2 */
 

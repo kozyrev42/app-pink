@@ -139,7 +139,7 @@
     .greeting__left__top {
         
         font-size: 40px;
-        margin-bottom: 30px;
+        margin-bottom: 45px;
     }
 
     
@@ -177,6 +177,9 @@
 @media (max-width: 768px) {
     .section__greeting {
         height: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
     }
 
     .section__greeting__left {
@@ -189,19 +192,37 @@
         background-size: cover;
     }
 
-    .greeting-mob {
+    .g-l-t-mob {
         display: block;
+        font-size: 28px;
+        max-width: 80%;
     }
 
-    .section__greeting {
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
+    .g-l-m-mob {
+        display: block;
+        background-color: #1D2631;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
-    /* .greeting__left__top.greeting-mob {
-        margin-bottom: 70px;
-    } */
+    .greeting__left__bottom-p1 {
+        /* font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 30px; */
+        
+        max-width: 300px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .greeting__left__bottom-p3 {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
 
 
@@ -209,5 +230,15 @@
 @media (max-width: 480px) {
     .section__greeting {
         background-image: url(images/header-mob-2.jpg);
+    }
+
+    .greeting__left__bottom-p1 {
+        max-width: 80%;
+    }
+
+    .g-l-t-mob {
+        margin-bottom: 25px;
+        font-size: 24px;
+        max-width: 90%;
     }
 }
