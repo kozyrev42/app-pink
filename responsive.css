@@ -222,9 +222,21 @@
         margin-right: auto;
     }
 
+    /* секция 2 */
+
+    .section__second {
+        
+        height: 250px;
+        
+    }
+    .section__second__prg-top, .section__second__prg-bttm {
+        font-size: 36px;
+        line-height: 42px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 
 }
-
 
 
 @media (max-width: 480px) {
@@ -240,5 +252,14 @@
         margin-bottom: 25px;
         font-size: 24px;
         max-width: 90%;
+    }
+
+    /* секция 2 */
+
+    .section__second__prg-top, .section__second__prg-bttm {
+        font-size: 24px;
+        line-height: 30px;
+        /* padding-top: 15px;
+        padding-bottom: 15px; */
     }
 }
