@@ -198,6 +198,10 @@
     .four__right__main {
         max-width: 300px;
     }
+
+    .footer {
+        height: 130px;
+    }
 }
 
 
@@ -327,6 +331,26 @@
     /* 4 секция */
     .section__four {
         display: none;
+    }
+
+    /* футер */
+
+    .footer {
+        height: auto;
+    }
+
+    .footer__wrap {
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .footer__right {
+        margin-top: 25px;
+        margin-bottom: 35px;
     }
 }
 
