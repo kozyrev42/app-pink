@@ -10,7 +10,7 @@ html,body{
     padding: 0;
 	margin: 0;
 	border: 0;
-    background-color: #E5E5E5; /* ? */
+    /* background-color: #E5E5E5; */ /* ? */
 }
 
 *,*:before,*:after{
@@ -97,8 +97,6 @@ img {
 }
 
 
-
-
 /* -----основной контейнер------ */
 .main {
     width: 100%;
@@ -114,7 +112,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* position: relative; */ /*  */
 }
 
 
@@ -190,12 +187,6 @@ img {
     width: 516px;
     height: 572px;
     background-image: url(images/header-hand-1.png);
-
-    /* position:absolute;
-    bottom:0;
-    left: 46%;
-    z-index: 1; */  /*  */
-
 }
 
 .g-l-m-mob {
@@ -207,14 +198,15 @@ img {
 
 .section__second {
     width: 100%;
-    background-color: #E5E5E5; /* - */
-    height: 420px;
+    background-color: #E5E5E5; 
+    /* background-color: #c7c7c7; */
+    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 95%);
 }
 
 .section__second__prg-top, .section__second__prg-bttm {
@@ -222,7 +214,7 @@ img {
     font-weight: 300;
     font-size: 50px;
     line-height: 68px;
-    color: #283645;
+    color: #283645; 
     text-align: center;
 }
 
@@ -230,9 +222,70 @@ img {
 
 .section__three {
     width: 100%;
-    height: 600px;
-    background-color: #c7c7c7;
-
-    /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */ /* def */
-    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%); /*  */
+    height: 580px;
+    display: flex;
 }
+
+.section__three__left {
+    display: none;
+}
+
+.section__three {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.section__three__right {
+    display: flex;
+    justify-content: center;
+}
+
+.three__right__cart {
+    width: 250px;
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 60px;
+}
+
+.three__right__cart-image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+#section__three-image-1 {
+    background-image: url(images/iphone-screen-1-desktop.png);
+}
+
+#section__three-image-2 {
+    background-image: url(images/iphone-screen-2-desktop.png);
+}
+
+#section__three-image-3 {
+    background-image: url(images/iphone-screen-3-desktop.png);
+}
+
+.three__right__cart-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.three__right__cart-text-head {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.three__right__cart-text-main {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #283645;
+}
+

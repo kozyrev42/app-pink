@@ -170,7 +170,20 @@
         background-size: cover;
     }
 
+    /* 3 секция */
+    .three__right__cart {
+        max-width: 180px;
+        /* margin-left: 34px;
+        margin-right: 34px;
+        margin-bottom: 60px; */
+    }
 
+    .three__right__cart-image {
+        width: 180px;
+        height: 180px;
+        /* margin-bottom: 50px;
+        background-size: cover; */
+    }
 }
 
 
@@ -225,9 +238,7 @@
     /* секция 2 */
 
     .section__second {
-        
-        height: 250px;
-        
+        height: 240px;
     }
     .section__second__prg-top, .section__second__prg-bttm {
         font-size: 36px;
@@ -236,6 +247,70 @@
         padding-bottom: 15px;
     }
 
+    /* 3 секция */
+    .section__three__left {
+        display: block;
+        width: 270px;
+        height: 480px;
+        background-image: url(images/iphone-screen-tablet.png);
+        
+    }
+
+    .three__right__cart-image {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 50px;
+        background-size: cover;
+    }
+
+    .three__right__cart-image {
+        display: none;
+    }
+
+    .section__three__right {
+        flex-direction: column;
+    }
+
+    .three__right__cart {
+        max-width: 310px;
+        margin-left: 26px;
+        margin-right: 26px;
+        margin-bottom: 30px;
+    }
+
+    .three__right__cart-text-head {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .three__right__cart-text-main {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #283645;
+    }
+
+    .three__right__cart-text {
+        text-align: left;
+    }
+
+}
+
+
+@media (max-width: 660px) {
+    .section__three {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .three__right__cart-text {
+        text-align: center;
+    }
+
+    
 }
 
 
@@ -256,10 +331,12 @@
 
     /* секция 2 */
 
+    .section__second {
+        height: 280px;
+    }
+
     .section__second__prg-top, .section__second__prg-bttm {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 30px;
-        /* padding-top: 15px;
-        padding-bottom: 15px; */
     }
 }
