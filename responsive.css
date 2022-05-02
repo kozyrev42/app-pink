@@ -184,6 +184,20 @@
         /* margin-bottom: 50px;
         background-size: cover; */
     }
+
+    /* секция 4 */
+    .section__four__left {
+        min-width: 225px;
+        height: 259px;
+    }
+
+    .section__four__right {
+        margin-left: 40px;
+    }
+
+    .four__right__main {
+        max-width: 300px;
+    }
 }
 
 
@@ -281,7 +295,7 @@
     .three__right__cart-text-head {
         font-weight: 700;
         font-size: 18px;
-        line-height: 24px;
+        line-height: 16px;
         margin-bottom: 16px;
     }
 
@@ -310,7 +324,10 @@
         text-align: center;
     }
 
-    
+    /* 4 секция */
+    .section__four {
+        display: none;
+    }
 }
 
 

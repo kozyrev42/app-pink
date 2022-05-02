@@ -289,3 +289,52 @@ img {
     color: #283645;
 }
 
+/*   4 секция    */
+
+.section__four {
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__four__left {
+    min-width: 298px;
+    height: 345px;
+    background-image: url(images/section-four-timer.svg);
+    background-size: cover;
+}
+
+.section__four__right {
+    margin-left: 70px;
+}
+
+.four__right__head {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000; 
+    margin-bottom: 35px;
+}
+
+.four__right__main {
+    max-width: 534px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #283645;
+    margin-bottom: 35px;
+}
+
+.four__right__info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #D22856;
+    cursor: pointer;
+}
