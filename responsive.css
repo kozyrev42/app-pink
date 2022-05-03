@@ -4,13 +4,6 @@
     }
 
     .header__wrap {
-        /* max-width: 940px;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        align-items: center; */
-        
         justify-content: space-between;
     }
 
@@ -67,17 +60,13 @@
     .header__menu {
         position: fixed;
         top: 70px;     /* позизионируем к верхней границе родителя */
-        /* margin-top: 110px; */
         right: -100%;    /* убираем за левую границу окна */
         width: 100%;
         height: 60px;
         background-color: #00000033;
-        /* padding: 100px 0 30px 0; */
         transition: right 0.3s ease 0s;
         overflow: auto;                     /* для скроллинга */
-        /* transform: translate(-100%, 0px); */   /* скарываем меню влево за границу окна */
         z-index: 2;
-        /* flex-direction: column; */
         align-items: center;
         justify-content: right;
     }
@@ -114,21 +103,11 @@
         background-color: #ffffff;
     }
 
-    /*  */
+    /* секция приветствия */
 
     .section__greeting {
         height: 600px;
         background-image: url(images/header-mob-1.jpg);
-
-        /* width: 100%; */
-        
-        /* background-image: url(images/header-desk.jpg);
-        background-size: cover;
-    
-        display: flex;
-        justify-content: center;
-        align-items: flex-end; */
-        /* position: relative; */ /*  */
     }
 
     .section__greeting__left {
@@ -137,12 +116,9 @@
     }
 
     .greeting__left__top {
-        
         font-size: 40px;
         margin-bottom: 45px;
     }
-
-    
 
     .greeting__left__bottom-p1 {
         font-size: 18px;
@@ -173,16 +149,11 @@
     /* 3 секция */
     .three__right__cart {
         max-width: 180px;
-        /* margin-left: 34px;
-        margin-right: 34px;
-        margin-bottom: 60px; */
     }
 
     .three__right__cart-image {
         width: 180px;
         height: 180px;
-        /* margin-bottom: 50px;
-        background-size: cover; */
     }
 
     /* секция 4 */
@@ -237,12 +208,7 @@
     }
 
     .greeting__left__bottom-p1 {
-        /* font-size: 18px;
-        margin-top: 0px;
-        margin-bottom: 30px; */
-        
         max-width: 300px;
-        
         margin-left: auto;
         margin-right: auto;
     }
@@ -259,8 +225,8 @@
         height: 240px;
     }
     .section__second__prg-top, .section__second__prg-bttm {
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 30px;
+        line-height: 38px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -314,8 +280,30 @@
         text-align: left;
     }
 
-}
+    /* секция - контакты */
+    .contacts__no-tablet {
+        display: none;
+    }
 
+    .contacts__mob-desk {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .contacts__text-head {
+        margin-bottom: 8px;
+    }
+
+    .contacts__text {
+        font-size: 20px;
+        
+    }
+    .section__contacts__tablet {
+        display: block;
+    }
+
+
+}
 
 @media (max-width: 660px) {
     .section__three {
@@ -353,6 +341,19 @@
         margin-bottom: 35px;
     }
 
+    /* 6 */
+    .section__six {
+        
+        padding-top: 70px;
+        padding-bottom: 60px;
+        
+        
+        font-size: 40px;
+        line-height: 54px;
+        
+        color: #283645;
+    }
+
     /* 7 секция - карта */
     .section__seven {
         height: 56.6vw;
@@ -362,6 +363,15 @@
 
 
 @media (max-width: 480px) {
+    .header {
+        height: 50px;
+    }
+
+    .header__menu {
+        top: 50px;     /* позизионируем к верхней границе родителя */
+        height: 35px;
+    }
+
     .section__greeting {
         background-image: url(images/header-mob-2.jpg);
     }
@@ -385,6 +395,31 @@
     .section__second__prg-top, .section__second__prg-bttm {
         font-size: 20px;
         line-height: 30px;
+    }
+
+    /* секция 6 */
+    
+    .section__six {
+        padding-top: 50px;
+        padding-bottom: 45px;
+        font-size: 24px;
+        line-height: 30px;
+        color: #283645;
+    }
+
+    /* секция - контакты */
+    .section__contacts__mob-desk {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .contacts__text-head {
+        margin-bottom: 0px;
+    }
+
+    .contacts__text {
+        font-size: 20px;
+        margin-bottom: 26px;
     }
 
     /* 7 секция - карта */
