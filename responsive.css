@@ -352,6 +352,12 @@
         margin-top: 25px;
         margin-bottom: 35px;
     }
+
+    /* 7 секция - карта */
+    .section__seven {
+        height: 56.6vw;
+        background-image: url(images/map-tablet-svg.svg);
+    }
 }
 
 
@@ -379,5 +385,11 @@
     .section__second__prg-top, .section__second__prg-bttm {
         font-size: 20px;
         line-height: 30px;
+    }
+
+    /* 7 секция - карта */
+    .section__seven {
+        height: 62.5vw;
+        background-image: url(images/map-mob-svg.svg);
     }
 }

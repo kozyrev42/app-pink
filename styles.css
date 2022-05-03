@@ -340,6 +340,17 @@ img {
 }
 
 
+/* 7 СЕКЦИЯ - КАРТА */
+.section__seven {
+    height: 41.6vw;
+    width: 100%;
+    
+    background-image: url(images/map-desk-svg.svg);
+    background-size: cover;
+
+    clip-path: polygon(0% 0%, 50% 22%, 100% 0%, 100% 100%, 0% 100%);
+}
+
 /* футер */
 .footer {
     width: 100%;
